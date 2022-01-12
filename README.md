@@ -42,6 +42,7 @@ Kaggle Notebook의 session time 제한으로 인해, 본 프로젝트의 코드�
     - kaggle submission code
 
 <h3>preprocess</h3>
+
 * qtag_lsi
     - Question 테이블로부터 LSI 를 수행해 Topic feature 생성
 * qtable_creation
@@ -54,6 +55,7 @@ Kaggle Notebook의 session time 제한으로 인해, 본 프로젝트의 코드�
     - concept 활용해 전처리된 최종 train table 생성
 
 <h3>train</h3>
+
 * train_attitude
     - attitude 연관 feature들을 활용해 예측 모델 학습
 * train_concept
