@@ -16,7 +16,7 @@ https://www.kaggle.com/c/riiid-test-answer-prediction
 
 |Tech|Detail|
 |---|---|
-|<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>|Main algorism|
+|<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>|Main algorithm|
 |<img src="https://img.shields.io/badge/LightGBM-459D5B?style=flat-square"/>|Prediction model|
 
 <h2>Model Explanation</h2>
