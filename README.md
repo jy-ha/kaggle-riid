@@ -24,7 +24,7 @@ https://www.kaggle.com/c/riiid-test-answer-prediction
 ![model](model.jpg)
 
 본 프로젝트는 학생들의 시간에 따른 문제 풀이 기록과 각 문제들에 대한 정보를 가지고 해당 학생이 미래에 주어진 문제에 대해 정답/오답을 예측하는 과제입니다.    
-Table로 깔끔히 정리된 데이터를 가지고 있으며, 주어진 Feature 들이 십여개 정도로 적기 때문에, Neural Network 보다는 Tree 기반 Boosting 알고리즘이 적합하다고 판단했습니다. (Competition 우승 모델은 Transformer 기반으로 해당 문서를 참고하세요.)   
+Table로 깔끔히 정리된 Tabular Dataset 가지고 있으며, 주어진 Feature 들이 십여개 정도로 적기 때문에, Neural Network 보다는 Tree 기반 Boosting 알고리즘이 적합하다고 판단했습니다. (Competition 우승 모델은 Transformer 기반으로 해당 문서를 참고하세요.)   
 
 1. Question 테이블의 Tag 들을 활용해 Latent Semantic Indexing 으로 각각 50개, 100개, 200개의 토픽으로 분류, 새로운 Feature를 생성합니다.
 2. 새로 생성한 Topic Feature 와 Question, train data를 복합적으로 분석하여, 각 문제의 중요도(Importance) Feature를 새롭게 추출합니다.
